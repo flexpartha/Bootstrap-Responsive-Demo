@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wiredwiki</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .fa {
+            padding: 10px;
+            font-size: 15px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+
+        .carousel {
+            background: #2f4357;
+            margin-top: 20px;
+        }
+
+        .carousel .item {
+            min-height: 280px;
+            /* Prevent carousel from being distorted if for some reason image doesn't load */
+        }
+
+        .carousel .item img {
+            margin: 0 auto;
+            /* Align slide image horizontally center */
+        }
+
+        .panel-heading {
+            color: #333 !important;
+            background-color: #f5f5f5 !important;
+            border-color: #ddd !important;
+        }
+
+        .panel-heading.on {
+            color: #fff !important;
+            background-color: #006a8a !important;
+            border-color: #ddd !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Wiredwiki</a>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#feedback">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="#gallary">Gallary</a>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#faq">Faq</a>
+                    </li>
+                    <li>
+                        <a href="#contactus">ContactUs</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <button type="button" class="btn btn-sm btn-md btn-lg btn-warning navbar-btn">Download App</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Wiredwiki App</h1>
+            <p>The Bootstrap navigation bar is fixed at the top of the viewport and does not scroll with the rest of the page.</p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-md btn-lg btn-info">Download App</button>
+                <button type="button" class="btn btn-sm btn-md btn-lg btn-default">Visit Store</button>
+                <button type="button" class="btn btn-sm btn-md btn-lg btn-info">Spread the word</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <div class="page-header" id="feedback">
+                <h2>Feedback
+                    <small>Check Out the awesome feedback</small>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum totam blanditiis nostrum distinctio
+                            laboriosam saepe dolor dignissimos minus ducimus veniam consectetur, qui deleniti nesciunt sunt,
+                            quas sapiente doloribus. Facere eum, consectetur aliquid architecto optio veritatis voluptatum
+                            eius quidem aut quasi.</p>
+                        <footer>John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum totam blanditiis nostrum distinctio
+                            laboriosam saepe dolor dignissimos minus ducimus veniam consectetur, qui deleniti nesciunt sunt,
+                            quas sapiente doloribus. Facere eum, consectetur aliquid architecto optio veritatis voluptatum
+                            eius quidem aut quasi.</p>
+                        <footer>John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum totam blanditiis nostrum distinctio
+                            laboriosam saepe dolor dignissimos minus ducimus veniam consectetur, qui deleniti nesciunt sunt,
+                            quas sapiente doloribus. Facere eum, consectetur aliquid architecto optio veritatis voluptatum
+                            eius quidem aut quasi.</p>
+                        <footer>John Doe</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section>
+        <div class="well">
+            <div class="container text-center">
+                <h3>Subscribe for more free stuff</h3>
+                <p>Enter Your Name and Email</p>
+                <form action="" class="form-inline">
+                    <div class="form-group">
+                        <label for="subscription">subscribe</label>
+                        <input type="text" class="form-control" id="subcription" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="subscription">Email Address</label>
+                        <input type="text" class="form-control" id="subcription" placeholder="Your Name">
+                    </div>
+                    <button type="submit" class="btn btn-info">subscribe</button>
+                    <hr>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section>
+            <div class="page-header" id="gallary">
+                <h2>Gallary
+                    <small>Check Out the awesome Gallary</small>
+                </h2>
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/access-adult-blur-261628.jpg" alt="First Slide">
+                        <div class="carousel-caption">
+                            <h3>Mobile Developement</h3>
+                            <p>This is a caption</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/business-charts-commerce-265087.jpg" alt="Second Slide">
+                        <div class="carousel-caption">
+                            <h3>Seo Engine Optimization</h3>
+                            <p>This is a caption</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/code-coding-computer-574077.jpg" alt="Third Slide">
+                        <div class="carousel-caption">
+                            <h3>Tech Marketing</h3>
+                            <p>This is a caption</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section>
+            <div class="page-header" id="features">
+                <h2>Features
+                    <small>Some of the cool Features of this App</small>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3>This a the Heading</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, vero nam natus omnis quia beatae
+                        delectus velit animi exercitationem ullam sapiente sit, temporibus consequuntur recusandae commodi
+                        tempore sequi! Quia, sequi.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/adult-business-close-up-1181263.jpg" class="img-responsive" alt="img">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                            <h4>This is a Heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt recusandae, cum nostrum perferendis
+                                provident consequuntur sit numquam illo eaque quaerat aliquid repellendus, autem iure ab
+                                fuga debitis dignissimos sequi asperiores quia assumenda. Ex suscipit nostrum repellat nam
+                                optio, totam, officiis voluptate perferendis praesentium alias voluptas odio accusantium
+                                veniam eaque nisi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                            <h4>This is a Heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt recusandae, cum nostrum perferendis
+                                provident consequuntur sit numquam illo eaque quaerat aliquid repellendus, autem iure ab
+                                fuga debitis dignissimos sequi asperiores quia assumenda. Ex suscipit nostrum repellat nam
+                                optio, totam, officiis voluptate perferendis praesentium alias voluptas odio accusantium
+                                veniam eaque nisi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                            <h4>This is a Heading</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt recusandae, cum nostrum perferendis
+                                provident consequuntur sit numquam illo eaque quaerat aliquid repellendus, autem iure ab
+                                fuga debitis dignissimos sequi asperiores quia assumenda. Ex suscipit nostrum repellat nam
+                                optio, totam, officiis voluptate perferendis praesentium alias voluptas odio accusantium
+                                veniam eaque nisi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!----Features end-->
+    <!-- Faq Start -->
+    <div class="container">
+        <section>
+            <div class="page-header" id="faq">
+                <h2>Faq
+                    <small>Engaging with Consumer</small>
+                </h2>
+            </div>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What is HTML?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for describing
+                                the structure of web pages.
+                                <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">What is Bootstrap?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+                                It is a collection of CSS and HTML conventions.
+                                <a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">What is CSS?</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for
+                                a given HTML element such as colors, backgrounds, fonts etc.
+                                <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Faq Ends-->
+    <!-- contact Us -->
+    <div class="container">
+        <section>
+            <div class="page-header" id="contactus">
+                <h2>Contact Us
+                    <small>Contact Us for more</small>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Send us a message, or contact us from the address below</p>
+                    <address>
+                        <strong>Wiredwiki pvt ltd</strong>
+                        <br> 111,Malviya nagar
+                        <br> Plot no.-45
+                        <br> New Delhi-110017
+                        <br> P:+91 9862029378
+                    </address>
+                </div>
+                <div class="col-lg-8">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter your Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="website" class="col-lg-2 control-label">Your Website</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="website" placeholder="If You Have Any">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-lg-2 control-label">Any Message</label>
+                            <div class="col-lg-10">
+                                <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit" class="btn btn-info">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer -->
+    <footer>
+        <hr>
+        <div class="container text-center">
+            <h3>Subscribe for more free stuff</h3>
+            <p>Enter Your Name and Email</p>
+            <form action="" class="form-inline">
+                <div class="form-group">
+                    <label for="subscription">subscribe</label>
+                    <input type="text" class="form-control" id="subcription" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="subscription">Email Address</label>
+                    <input type="text" class="form-control" id="subcription" placeholder="Your Name">
+                </div>
+                <button type="submit" class="btn btn-info">subscribe</button>
+            </form>
+            <hr>
+            <ul class="list-inline">
+                <li>
+                    <a href="" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="" class="fa fa-youtube"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        $(function () {
+            $('.panel-heading').click(function () {
+                $(this).toggleClass('on');
+            })
+        }); 
+    </script>
+</body>
+
+</html>
